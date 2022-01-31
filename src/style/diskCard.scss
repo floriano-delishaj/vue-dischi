@@ -1,0 +1,27 @@
+@import '@/style/variables.scss';
+
+.col-2 {
+    div{
+        background-color: $primary-color;
+    }
+
+    .disk-card {
+
+        height: 300px;
+        padding: 10px;  
+    
+        img{
+            height: 50%;
+        }
+
+        h6 {
+            text-transform: uppercase;
+        }
+
+        p {
+
+            margin: 0;
+            color: $light-gray;
+        }
+    }
+}
