@@ -1,6 +1,8 @@
 @import '@/style/variables';
 
 main {
-    height: 100vh;
+
+    height: calc(100vh - 80px);
     background-color: $secondary-color;
+    
 }
